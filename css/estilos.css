@@ -1,0 +1,32 @@
+	body llave abierta
+		backgroud..blue., color de fondo
+		backgroud..rgb(0,0,0)., color de fondo
+		backgroud..rgba(#,#,#,#)., color de fondo.  a=canal alfa 0-1 para transparencia
+		backgroud..#ff0000., color de fondo hexadecimal rojo-verde-azul
+		color..white., color de letra 
+		endllave cerrada
+
+	header
+
+		border..1px solid black., solid=linea continua
+		text-aling..center.,		alineacion del texto centrada.
+		es un block. block=100% de ancho. header es una caja ,modelo de caja 
+	end
+
+	header nav ul li configurar los li
+
+		background..orange., color de los cuadros de los li
+		border..1px solid orange., li son cajas y es el borde de los li
+		border-radius..5px., redondea las esquinas de los li
+		display..inline-block.,  se quita en 100% de ancho de los li y estaran uno al lado de otro
+		width..90px., 
+	end
+
+	header nav ul li..hover   
+
+		background..black., color de los cuadros de los li
+		border..1px solid orange., li son cajas y es el borde de los li
+		border-radius..5px., redondea las esquinas de los li
+		display..inline-block.,  se quita en 100% de ancho de los li y estaran uno al lado de otro
+		width..90px., 
+	end

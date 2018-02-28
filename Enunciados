@@ -1,0 +1,14 @@
+CSS3= Hojas de estilo en cascada
+maquetado=html5+css3
+			(diseño,colores,etc.)
+hojas de estilo=
+		*selectores
+			-etiqueta
+			atributos:valor.,
+			-identificador
+			atributos..valor.,
+			-clase
+			atributos..valor.,
+			-pseudoelemento 
+			atributos..valor.,
+			*todos en orden alfabetico
