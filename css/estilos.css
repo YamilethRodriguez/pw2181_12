@@ -1,32 +1,48 @@
-	body llave abierta
-		backgroud..blue., color de fondo
-		backgroud..rgb(0,0,0)., color de fondo
-		backgroud..rgba(#,#,#,#)., color de fondo.  a=canal alfa 0-1 para transparencia
-		backgroud..#ff0000., color de fondo hexadecimal rojo-verde-azul
-		color..white., color de letra 
-		endllave cerrada
+body{
+	background: blue;
+	/*background: rgb(155,155,155);
+	background: rgba(155,155,155,0);
+	background: #0000FF;*/
+	color: white;
+}
+main 
+{ 
+	margin-top: 15px 
+}
+footer
+{
+	border: 1px solid orange;
+	font-weight: bold; /* negritas*/
+	padding: 20px;
+	text-align: center;
+}
+header{
+	border: 1px solid black;
+	text-align: center;  
+}
+header nav ul li{
+	background: orange;
+	border: 1px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	/*margin-right: 15px es igual al de abajo*/
+	margin: 0px 15px 0px 0px;	
+	padding: 5px 10px;
+	width: 100px;
+}
+header nav ul li:hover{
+	background: black;
+	border: 1px solid orange;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 5px 10px;
+	width: 100px;
+}
+main section article
+{
+	border: 1px dashed  black;
+	display: inline-block;
+	vertical-align: top;
+	width: 32%;
+}
 
-	header
-
-		border..1px solid black., solid=linea continua
-		text-aling..center.,		alineacion del texto centrada.
-		es un block. block=100% de ancho. header es una caja ,modelo de caja 
-	end
-
-	header nav ul li configurar los li
-
-		background..orange., color de los cuadros de los li
-		border..1px solid orange., li son cajas y es el borde de los li
-		border-radius..5px., redondea las esquinas de los li
-		display..inline-block.,  se quita en 100% de ancho de los li y estaran uno al lado de otro
-		width..90px., 
-	end
-
-	header nav ul li..hover   
-
-		background..black., color de los cuadros de los li
-		border..1px solid orange., li son cajas y es el borde de los li
-		border-radius..5px., redondea las esquinas de los li
-		display..inline-block.,  se quita en 100% de ancho de los li y estaran uno al lado de otro
-		width..90px., 
-	end
