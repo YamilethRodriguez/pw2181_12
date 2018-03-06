@@ -1,7 +1,7 @@
 body
 {
 	border: 1px solid blue;
-	font-size: 16px;
+	font-size: 16px;/*1EM*/
 	margin: 0 auto;
 	max-width: 1024px;
 
@@ -10,6 +10,7 @@ body
 header
 {
 	background: #B3D8EB;
+	margin-bottom: 15 px;
 
 }
 header nav
@@ -24,7 +25,17 @@ header nav
 header nav form
 {
 	float: right;
-	margin-top: -34.5px;
+	margin-right: 20px;
+	margin-top: -40px;
+}
+header nav form input { /* TODOS LOS INPUTS DENTRO DEL FORM*/
+	border-radius: 5px;
+}
+
+header nav form input[type="button"]{
+background: green;
+border:1px solid green;
+color: white;
 }
 
 header nav ul li
@@ -33,8 +44,59 @@ header nav ul li
 	display: inline-block;
 	margin-right: 20px; 
 }
+#seccion01{
+	margin-top: 15px;
+}
+
+#seccion01 article {
+text-align: center;
+}
+#seccion01 article img{
+	border:5px solid rgba(150,150,150,0.5);
+	width: 98%
+}
+#seccion02 article{
+	display: inline-block;/*despliegan los 3 bloques uno al lado de otro.
+	una seccion-otra seccion-un video*/
+	vertical-align: top;/*se suben los bloques y quedan derechos*/
+width: 32.8%;
+}
 
 #logo
 {
 	margin-top: -150px;
+}
+.unaSeccion{/*es una clase*/
+	font-size: 4.5em;
+	/*font-weight: bold; *//*en negrita*/
+}
+.otraSeccion{
+	font-size: 2.5em;
+	/*font-weight: bold;*/
+}
+/*MULTIPLES SELECTORES PARA DISTINTOS ATRIBUTOS-VALOR*/
+.otraSeccion,.unaSeccion{
+font-weight: bold;
+}
+
+#seccion02[type="submit"]{
+background: green;
+border:1px solid green;
+color: white;
+}
+
+/*#seccion02 article input[type="submit"]{
+	background: white;
+border-radius: 5px;
+color: blue;
+margin-left: 130px;	
+
+}*/
+
+section article input {
+background: white;
+border-radius: 5px;
+border:1px solid rgba(150,150,150,0.5);
+color: blue;
+margin-left: 130px;	
 }
