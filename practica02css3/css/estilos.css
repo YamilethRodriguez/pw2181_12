@@ -1,0 +1,20 @@
+body{
+	font-size: 16px; /*1em*/
+	margin:0 auto;/*centrar todo*/
+	max-width: 1078px;
+	max-height: 1078px;
+}
+header input{/*configurar la caja de texto search*/
+float:right;
+margin-right: -200px;
+position: relative;
+
+}
+
+#granthams{/*ocupa el # si no no va a funcionar*/
+margin-top: 25px;/*se movio el logo*/
+margin-left: 25px;
+}
+#paint{
+	float: right;/*movio la imagen de la mancha de pintura*/
+}
