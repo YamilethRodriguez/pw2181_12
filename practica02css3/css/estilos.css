@@ -10,6 +10,25 @@ margin-right: -200px;
 position: relative;
 
 }
+header nav{
+	margin-left: 220px;/*menu centrado*/
+}
+
+header nav ul li{
+	border-bottom: 1px solid #dbdce0;/*subrayado del menu*/
+	color: #dbdce0;/*color de las letra de menu*/
+	display: inline-block;/*separacion de los menus */
+	font-size: 1.8em;/*tamano de la letra del menu*/
+	margin-right: 15px;/*separa los menus print-copy-finishing*/
+	/*text-decoration: underline;  texto subrayado*/
+	padding-bottom: 2px; /*margen del subrayado*/
+}
+#bgoffer{
+ 
+	position: relative;/*elimina el margin */
+	top: -410px;
+	left: -28px;
+}
 
 #granthams{/*ocupa el # si no no va a funcionar*/
 margin-top: 25px;/*se movio el logo*/
@@ -18,3 +37,59 @@ margin-left: 25px;
 #paint{
 	float: right;/*movio la imagen de la mancha de pintura*/
 }
+#primerseccion{
+	margin-top: 60px;/*margen del menu y el banner*/\
+	height: 318px;/*lo que mide la imagen*/
+
+}
+#primerseccion article{
+	display: inline-block;/*ponemos uno al lado del otro*/
+	vertical-align: top;/*subir el texto*/
+}
+#secc01art01{
+	margin-left: 30px;/*mover la imagen*/
+	width: 60%;/*ancho de la imagen*/
+
+}
+#secc01art02{
+	margin-left: 50px;/*mover el texto*/
+	width: 30%;/*ancho del texto*/
+}
+#secc01art02 ul{
+	list-style: none;/*destruir las bolitas negras*/
+}
+#secc01art02 ul li:before{/*contruir las bolitas rosas*/
+	/*content: "Mi contenido";*/
+	color:#f9d5e6;
+	content: "•";
+}
+#segundaseccion article{/*numero de telefono */
+	text-align: right;/*alineado ala derecha*/
+	padding-right: 122px;/*texto movido a la izquierda*/
+}
+
+.colorrosa{
+	color:#FF0099;
+}
+
+.nito{
+	font-weight: bold;
+}
+
+.letragrande{
+	font-size: 3.5em;
+}
+
+.letramediana{
+	font-size: 2em;
+}
+
+
+
+
+
+
+
+
+
+
