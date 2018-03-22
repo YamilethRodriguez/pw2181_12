@@ -1,0 +1,22 @@
+article{
+	border-radius: 5px;
+	border:1px solid blue;
+	height: 50px;
+	margin-top: 10px;
+	width: 150px;
+}
+
+#uno{
+	/*Si no soporta gradientes*/
+	background:red;
+	/*opera-prefijo*/
+	background:-o-linear-gradient(rgba(255,0,0,1),rgba(255,255,0,1));
+	/*safari-prefijo*/
+	background:-webkit-linear-gradient(rgba(255,0,0,1),rgba(255,255,0,1));
+	/*firefox-prefijo*/
+	background:-moz-linear-gradient(rgba(255,0,0,1),rgba(255,255,0,1));
+	/*internet explorer-prefijo*/
+	background:-ms-linear-gradient(rgba(255,0,0,1),rgba(255,255,0,1));
+	/*instruccion generica para todos los navegadores*/
+	background:linear-gradient(rgba(255,0,0,1),rgba(255,255,0,1));
+}
