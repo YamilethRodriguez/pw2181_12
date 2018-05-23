@@ -7,11 +7,11 @@ function valida(){
 	$clave=md5($_POST["clave"]);
 	//conectarnos al servido de base de datos//alta-baja-cambia-consulta
 	$con=conecta();
-	$consulta="select usuario,clave usuarios where usuario='".$usuario." ' and clave='".$clave."'limit 1 ";
+	$consulta="select * from usuarios where usuario='".$usuario." ' and clave='".$clave."'limit 1 ";
 	//ejecutamos la consulta
-	$resConsulta=mysql_query($con,$consulta);
+	$resConsulta=mysqli_query($con,$consulta);
 	//SI ES MAYOR DEBOLVIO UN REGISTRO Y SE ENCONTRO EN LA BD
-	if(mysql_num_rows($resConsulta)>0){
+	if(mysqli_num_rows($resConsulta)>0){
 		$respuesta=true;
 	}
 	//array asociativo

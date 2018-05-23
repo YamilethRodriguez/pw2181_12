@@ -23,7 +23,7 @@ var inicioApp=function(){
 					}
 			},
 			//error de coneccion del servidor-no existia el servidor
-			error:function(xhr,ajaxOptions,throwError){
+			error:function(xhr,ajaxOptions,thrownError){
 
 			}
 		});
